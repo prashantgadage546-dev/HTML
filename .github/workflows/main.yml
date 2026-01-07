@@ -12,5 +12,5 @@ steps:
 -name: Get code
 uses: action/checkout@v3
 
--name:Run Test
+-name: Run Test
 run: echo"code checked successfully"
