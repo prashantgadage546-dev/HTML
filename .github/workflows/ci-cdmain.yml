@@ -1,11 +1,11 @@
-name: simple CI
+name: simple ci
 on: [push]
 jobs:
 build:
 runs-on: ubuntu-latest
-steps:
-- name: Get code
-uses: actions/checkout@v4
+ steps:
+ - name: Get code
+   uses: actions/checkout@v4
 
-- name: Run Test
-  run: echo"code checked successfully"
+ - name: Run Test
+   run: echo"code checked successfully"
