@@ -8,4 +8,4 @@ steps:
 uses: actions/checkout@v4
 
 - name: Run Test
-run: echo"code checked successfully"
+  run: echo"code checked successfully"
